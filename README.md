@@ -20,14 +20,14 @@ Or individual packages:
 `npm install sequelize`
 Recent version of inquirer will not work with this tool.
 
-Please also update your own mysql password into the connection.js. And in terminal run `mysql -u root -p`, enter your password, `SOURCE db/schema.sql` exit and `npm run seed` to get the database started.
+Please also update your own mysql password into the connection.js using a .env file. And in terminal run `mysql -u root -p`, enter your password, `SOURCE db/schema.sql` exit and `npm run seed` to get the database started.
 
 Lastly, run `node server.js` and open server on insomnia.
 
 ## Usage
 Sample video link: https://drive.google.com/file/d/17ozFUBXlmbimP-5RvDm8EwDzmblFSgxu/view
 
-![insomnia walkthrough GIF]()
+![insomnia walkthrough GIF](./images/M13-ORMChallenge.gif)
 
 ## License
 MIT License
@@ -36,3 +36,4 @@ MIT License
 Feel free to clone or fork the repo and create any changes you wish to make the application better!
 
 ## Credits
+Original code source: https://github.com/coding-boot-camp/fantastic-umbrella
